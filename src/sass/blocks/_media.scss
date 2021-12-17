@@ -1,0 +1,1130 @@
+@media (max-width: 1420px) {
+    // 10
+    .contacts {
+        &__wrapper {
+            a {
+                width: 45%;
+            }
+        }
+    }
+}
+
+// #00FF00
+
+@media (max-width: 1400px) {
+    .private__sum {
+    font-size: 20px;
+    }
+    .partner__sum {
+        font-size: 20px;
+    }
+
+}
+
+// #00FF00
+
+@media (max-width: 1380px) {
+
+    // 4
+    
+    .tab__4-wrapper {
+        grid-template-areas: 
+            "q1 q1 q1 q1"
+            "q2 q2 q3 q3"
+            "q2 q2 q4 q4"
+    }
+}
+
+// #00FF00
+
+@media (min-width: 1270px) {
+    .ddn {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1270px) {
+    .mdn {
+        display: none;
+    }
+    .circle {
+        &:nth-child(4) {
+            margin-right: 0;
+        }
+    }
+}
+
+// #00FF00
+
+@media (max-width: 1070px) {
+    // 3
+    .capitalization {
+        &_double {
+            flex-direction: column;
+            row-gap: 15px;
+        }
+    }
+
+    // 7 
+    .tab {
+        &__7 {
+            &-block-text {
+                padding: 25px;
+            }
+        }
+    }
+
+    // 8
+
+    .tab__choose-head {
+        display: none;
+    }
+    .dropdown {
+        display: block;
+    }
+
+    // 10
+
+    .message {
+        &_out {
+            margin-right: 10px;
+        }
+        &_in {
+            margin-left: 0;
+            margin-right: 10px;
+        }
+    }
+    .chat {
+        &__profile_2 {
+            margin-top: 0;
+        }
+    }
+
+    
+}
+
+
+// #00FF00
+
+@media (max-width: 990px) {
+
+    .card__descr {
+        flex-direction: column;
+    }   
+
+    // 1
+    .tab__1 {
+        &-block23 {
+            flex-direction: column;
+            row-gap: 30px;
+        }
+        &-block2 {
+            width: 100%;
+        }
+        &-block3 {
+            width: 100%;
+        }   
+    }
+
+    // 3
+
+    .calc {
+        flex-direction: column;
+        &__input {
+            margin: 25px 0 0 0;
+            width: 100%;
+        }
+    }
+    .tariff {
+        display: flex;
+        align-items: center;
+        column-gap: 7px;
+        p {
+            margin: 0 15px 0 0;
+        }
+        &__choose {
+            margin-bottom: 0;
+        }
+        &__card {
+            &-subtitle {
+                flex-direction: column;
+                span {
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+            &-head {
+                padding: 15px;
+            }
+            &-body {
+                padding: 15px;
+            }
+        }
+        &__input {
+            &-title {
+                text-align: center;
+            }
+        }
+        &__result {
+            div {
+                column-gap: 15px;
+            }
+        }
+    }
+    .result {
+        border-left: none;
+        border-top: 1px solid #1f2733;
+        padding: 15px 0 0 0;
+        width: 100%;
+    }
+    .capitalization {
+        margin: 15px 0 10px 0;
+        &_double {
+            margin: 15px 0 0 0;
+        }
+    }
+
+    // 9
+    .input {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+// #00FF00
+
+@media (min-width: 860px) {
+    .chat__header {
+        display: none;
+    }
+}
+
+// #00FF00
+
+@media (max-width: 860px) {
+    // 3
+
+    .tab__3-block2 {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .tariff {
+        &__card {
+            width: 100%;
+            &-subtitle {
+                flex-direction: row;
+                span {
+                    margin: 10px 0 0 13px;
+                    text-align: left;
+                }
+            }
+            &-head {
+                padding: 25px;
+            }
+            &-body {
+                padding: 25px;
+            }
+        }
+        &__input {
+            &-title {
+                text-align: left;
+            }
+        }
+        &__arrow {
+            display: block;
+        }
+    }
+
+    .capitalization {
+        &_double {
+            flex-direction: row;
+        }
+    }
+
+
+    // 6
+    .withdraw {
+        &__input {
+            margin-top: 20px;
+            &:first-child {
+                width: 100%;
+                margin-right: 0;
+            }
+            &:last-child {
+                width: 100%;
+            }
+            &-wrapper {
+                flex-direction: column;
+            }
+        }
+        &__result {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    // 7 
+    .tab {
+        &__7 {
+            &-block {
+                margin-top: 15px;
+                &-img {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                &-text {
+                    padding: 15px;
+                }
+
+            }
+        }
+    }
+
+    .promo {
+        &__title {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__more {
+            font-size: 12px;
+        }
+    }
+
+    // 10
+
+    .chat {
+        &__list {
+            padding-right: 0;
+            width: 100%;
+            max-height: unset;
+        }
+        &__profile {
+            padding: 15px;
+            height: 90px;
+            align-items: unset;
+            border-radius: 8px;
+            &-img {
+                margin: 0 12px 0 0;
+            }
+            &-fixed {
+                top: 15px;
+                right: 15px;
+            }
+            &-number {
+                display: flex;
+            }
+            &-status {
+                top: 15px;
+                left: 40px;
+            }
+            &-descr {
+                margin-top: 3px;
+            }
+            &-name {
+                font-size: 13px;
+            }
+            &-level {
+                font-size: 10px;
+            }
+            &-2 {
+                margin-top: -14px;
+            }
+            &-preview {
+                display: block;
+            }
+        }
+    }
+    .message {
+        &_out {
+            margin-right: 10px;
+        }
+        &_in {
+            margin-left: 35px;
+            margin-right: 50px;
+        }
+    }
+}
+
+
+// #00FF00 
+
+@media (max-width: 785px) {
+
+    // 4
+    .tab__4 {
+        &-wrapper {
+            grid-template-areas: 
+                "q1"
+                "q2"
+                "q3"
+                "q4"
+        }
+     
+    }
+
+    .contacts2 {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__subwrapper {
+            &_2 {
+                margin-left: unset;
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    a {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    .profile2 {
+        margin-top: 0;
+        border-left: none;
+        border-top: 1px solid #1f2733;
+        flex-direction: row;
+        padding: 17px 0 0 0;
+        &__img {
+            img {
+                width: 68px;
+            }
+        }
+        &__level {
+            text-align: unset;
+        }
+        &__status {
+            width: 16px;
+            height: 16px;
+            right: 0;
+        }
+        &__descr {
+            margin-left: 33px;
+        }
+    }
+
+    .line {
+        flex-direction: column;
+        background: $blockBG;
+        padding: 15px;
+        border-radius: 9px;
+        &__list {
+            display: none;
+        }
+        &__content {
+            width: 100%;
+            max-height: unset;
+            padding: 12px 0;
+            background: unset;
+            &-inside {
+                padding-right: 0;
+                max-height: unset;
+                overflow-y: hidden;
+            }
+        }
+        &__title {
+            display: block;
+        }
+    }
+
+    .dropdown4 {
+        display: block;
+    }
+
+    .dropdown3 {
+        display: block;
+    }
+
+    // 6 
+    .tab__6 {
+        &-hide {
+            display: block;
+        }
+    }
+    .db785 {
+        display: inline;
+    }
+    .dn785 {
+        display: none;
+    }
+
+    // 9 
+
+    .radio {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}
+
+
+// #00FF00
+
+@media (max-width: 620px) {
+
+    .main {
+        background-size: 80%;
+    }
+    .header {
+        padding: 15px;
+        &__left {
+            font-size: 10px;
+            img {
+                width: 9px;
+            }
+        }
+        &__cards {
+            column-gap: 10px;
+            margin-top: 15px;
+        }
+    }
+    .notify {
+        width: 317px;
+        padding: 5px;
+        right: -79px;
+        &__head {
+            padding: 5px 8px;
+        }
+    }
+
+
+    .reinvest {
+        width: 318px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .card {
+        border-radius: 8px;
+        padding: 10px;
+        &__img {
+            img {
+                max-width: 18px;
+            }
+        }
+        &__name {
+            font-size: 12px;
+            margin-top: 6px;
+        }
+        &__arrow {
+            width: 6px;
+            top: 15px;
+            right: 15px;
+        }
+        &__descr {
+            margin-top: 15px;
+        }
+    }
+    .private {
+        &__name {
+            font-size: 8px;
+        }
+        &__sum {
+            font-size: 12px;
+            margin-top: 3px;
+            &_card3 {
+                font-size: 14px;
+            }
+        }
+    }
+    .partner {
+        &__name {
+            font-size: 8px;
+        }
+        &__sum {
+            font-size: 12px;
+            margin-top: 3px;
+            &_card3 {
+                font-size: 14px;
+            }
+
+        }
+    }
+    .change {
+        font-size: 8px;
+        margin: 1px 0 0 3px;
+        line-height: 100%;
+    }
+
+    .tab__content {
+        margin-top: 15px;
+    }
+    .menu__open {
+        margin-bottom: 15px;
+    }
+
+    // 1
+
+    .tab__1 {
+        &-block1 {
+            padding: 5px 15px;
+            border-radius: 9px;
+        }
+        &-block23 {
+            margin-top: 15px;
+        }
+        &-block2 {
+            padding: 15px;
+            border-radius: 9px;
+            &-head {
+                margin-bottom: 12px;
+                &-descr {
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+            }
+        }
+        &-block3 {
+            padding: 15px;
+            border-radius: 9px;
+            &-head {
+                margin-bottom: 15px;
+                &-descr {
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+            }
+        }
+        &-block4 {
+            padding: 15px;
+            border-radius: 9px;
+            &-head {
+                margin-bottom: 12px;
+                &-descr {
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+                &-subdescr {
+                    font-size: 10px;
+                    line-height: 12px;
+                }
+            }
+        }
+    }
+
+    // 2
+
+    .tab__2 {
+        &-block {
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 9px;
+            &:last-child {
+                margin-top: 15px;
+            }
+        }
+    }
+    .deposit {
+        &__method {
+            padding: 4px 4px 5px 4px;
+        }
+        &__sum {
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        &__input {
+            margin-top: 7px;
+            height: 40px;
+            padding: 13px;
+            font-size: 12px;
+            &::placeholder {
+                font-size: 12px;
+            }
+        }
+        &__button {
+            margin-top: 10px;
+            font-size: 16px;
+            width: 100%;
+            height: 50px;
+            padding: 15px;
+        }
+    }
+    .currency {
+        padding: 4px 9px;
+        font-size: 12px;
+        margin-right: 11px;
+    }
+
+    // 3
+
+    .tab__3 {
+        &-block1 {
+            padding: 15px;
+            border-radius: 9px;
+            &-title {
+                font-size: 18px;
+                line-height: 21px;
+            }
+        }
+        &-block2 {
+            border-radius: 9px;
+            margin-top: 15px;
+        }
+    }
+
+    .calc {
+        margin-top: 20px;
+        &__input {
+            margin-top: 15px;
+            &-title {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .result {
+        &__count {
+            font-size: 14px;
+        }
+        &__wrapper {
+            margin-bottom: 15px;
+        }
+    }
+
+    .tariff {
+        p {
+            font-size: 12px;
+        }
+        &__choose {
+            font-size: 12px;
+            padding: 4px 8px;
+        }
+        &__card {
+            border-radius: 9px;
+            &-title {
+                img {
+                    width: 34px;
+                }
+                span {
+                    font-size: 16px;
+                    margin-left: 10px;
+                }
+            }
+            &-subtitle {
+                margin-top: 15px;
+                div {
+                    font-size: 48px;
+                    line-height: 56px;
+                }
+                span {
+                    font-size: 10px;
+                    line-height: 12px;
+                }
+            }
+            &-head {
+                padding: 15px;
+                border-radius: 9px 9px 0 0;
+            }
+            &-body {
+                padding: 20px 15px;
+                border-radius: 0 0 9px 9px;
+            }
+        }
+        &__input {
+            &-title {
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+        &__result {
+            margin-top: 20px;
+        }
+        &__button {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 19px;
+            padding: 15px 0;
+        }
+    }
+    .capitalization {
+        p {
+            margin-left: 10px;
+        }
+
+    }
+
+    
+    // 4
+    .tab__4 {
+        &-wrapper {
+            margin: 15px 0 0 0;
+            gap: 15px;
+        }
+        &-block {
+            border-radius: 9px;
+            padding: 15px;
+            &:nth-child(4) {
+                text-align: left;
+            }
+            &-title {
+                font-size: 12px;
+            }
+            &-level {
+                min-width: 260px;
+                height: 26px;
+                font-size: 14px;
+                &:nth-child(2) {
+                    margin-top: 17px;
+                }
+                &_current {
+                    &::after {
+                        font-size: 10px;
+                        top: 7px;
+                    }
+                }
+                &_future {
+                    &::after {
+                        font-size: 10px;
+                        top: 7px;
+                    }
+                }
+            }
+            &-counter {
+                font-size: 35px;
+                line-height: 41px;
+                margin-top: 4px;
+            }
+        }     
+    }
+
+    .contacts2 {
+        &__wrapper {
+            margin-top: 15px;
+            a {
+                font-size: 12px;
+            }
+        }
+        &__img {
+            width: 35px;
+            height: 35px;
+            img {
+                width: 18px;
+            }
+        }
+    }
+
+    .input {
+        &__title {
+            font-size: 12px;
+        }
+        &__area {
+            height: 40px;
+            font-size: 12px;
+
+        }
+        &__img {
+            bottom: 10px;
+            width: 22px;
+            height: 22px;
+        }
+    }
+
+    .line {
+        margin-top: 20px;
+        &__content {
+            border-radius: 9px;
+        }
+    }
+
+    // 5
+
+    .tab__5 {
+        border-radius: 9px;
+        padding: 15px;
+        &-title {
+            font-size: 14px;
+            margin-top: 20px;
+            a {
+                font-size: 12px;
+            }
+        }
+        &-banner {
+            margin-top: 10px;
+        }
+    }
+
+    // 6
+    .tab__6 {
+        &-block {
+            border-radius: 9px;
+            padding: 15px;
+        }
+        &-block-head {
+            padding: 4px 4px 5px 4px;
+        }
+        &-hide {
+            font-size: 18px;
+        }
+
+    }
+
+    .withdraw {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 4px 8px;
+        margin-right: 0;
+        &__title {
+            font-size: 12px;
+        }
+        &__input {
+            input {
+                font-size: 12px;
+                margin-top: 7px;
+                height: 40px;
+                padding: 13px;
+                &::placeholder {
+                    font-size: 12px;
+                }
+            }
+        }
+        &__result {
+            margin-top: 25px;
+            &-title {
+                font-size: 12px;
+            }
+            &-sum {
+                margin-top: 0;
+                font-size: 18px;
+                line-height: 21px;
+            }
+        }
+        &__button {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            line-height: 19px;
+            padding: 15px 0;
+        }
+    }
+
+    // 7 
+    .tab {
+        &__7 {
+            &-block {
+                flex-direction: column;
+                border-radius: 9px;
+            }
+        }
+    }
+    .promo {
+        &__title {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 10px;
+            line-height: 150%;
+            max-width: 88%;
+        }
+        &__more {
+            font-size: 10px;
+            margin-top: 10px;
+            img {
+                margin-left: 5px;
+                width: 7px;
+            }
+        }
+        &__hide {
+            display: block;
+        }
+    }
+
+    // 8
+
+    .tab {
+        &__choose {
+            border-radius: 9px;
+            margin-top: 15px;
+            padding: 15px;
+        }
+    }
+
+
+    .dropdown {
+        span {
+            font-size: 12px;
+        }
+        &-content {
+            padding: 15px;
+            margin-top: -19px;
+            p {
+                font-size: 12px;
+                padding: 10px 15px;
+            }
+        }
+    }
+
+    .dropbtn {
+        height: 40px;
+        padding: 13px;
+        border-radius: 5px;
+    }
+
+    // 9
+
+    .tab__9{
+        &-block {
+            border-radius: 9px;
+            margin-top: 15px;
+            padding: 15px;
+            &-title {
+                font-size: 18px;
+                line-height: 21px;
+            }
+        }
+        &_button {
+            font-size: 16px;
+            line-height: 19px;
+            margin-top: 15px;
+            height: 50px;
+            padding: 15px 0;
+            text-align: center;
+            width: 100%;
+
+        }
+    }
+
+    .input {
+        margin-top: 20px;
+        &__area {
+            margin-top: 7px;
+            line-height: 14px;
+            padding: 13px 16px;
+            &::placeholder {
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+
+    .verify {
+        bottom: 11px;
+        right: 10px;
+        height: 18px;
+        width: 18px;
+        img {
+            width: 8px;
+            height: 8px;
+        }
+    }
+
+    .socials {
+        margin-top: 20px;
+        &__title {
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 10px;
+        }
+        &__name {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        &__wrapper {
+            gap: 10px;
+        }
+        &__input {
+            width: 100%;
+            input {
+                padding: 12px 15px 14px 65%;
+            }
+
+        }
+    }
+
+    // 10
+
+    .tab__10 {
+        &-block {
+            border-radius: 9px;
+            padding: 15px;
+            margin-top: 15px;
+            &-title {
+                font-size: 18px;
+                line-height: 21px;
+            }
+        }
+        
+    }
+
+    .contacts {
+        &__wrapper {
+            margin-top: 20px;
+            a {
+                width: 100%;
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+        &__img {
+            width: 35px;
+            height: 35px;
+            margin-right: 20px;
+            img {
+                width: 18px;
+                height: auto;
+            }
+        }
+    }
+
+    .chat {
+        margin-top: 15px;
+        &__title {
+            margin-top: 24px;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        &__content {
+            .chat {
+                &__profile {
+                    padding: unset;
+                    &_2 {
+                        margin-top: -10px;
+                    }
+                    &-name {
+                        font-size: 10px;
+                        line-height: 12px;
+                    }
+                    &-img {
+                        margin-right: 6px;
+                    }
+                }
+            }
+        }
+    }
+
+    .message {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 10px 10px 20px 10px;
+        span {
+            bottom: 8px;
+            font-size: 8px;
+            line-height: 9px;
+        }
+    }
+
+    .input__wrapper-img {
+        width: 18px;
+        height: 18px;
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .tab__1-block2-head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

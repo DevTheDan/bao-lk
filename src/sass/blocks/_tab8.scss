@@ -1,0 +1,139 @@
+.tab {
+    &__choose {
+        background: $blockBG;
+        border-radius: 22px;
+        padding: 25px;
+        margin-top: 30px;
+        &-head {
+            background: #1F2733;
+            border-radius: 30px;
+            padding: 19px 9px;
+            margin-bottom: 17px;
+        }
+        &-body {
+            display: none;
+            &_active {
+                display: block;
+            }
+        }
+        &-footer {
+            margin-top: 17px;
+            display: inline-block;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 100%;
+            background: #1F2733;
+            border-radius: 22px;
+            padding: 6px 9px;
+            cursor: pointer
+        }
+    }
+    &__subcontent {
+        display: none;
+        &_active {
+            display: block;
+        }
+    }
+    &__pagination {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        column-gap: 3px;
+        &-item {
+            width: 23px;
+            height: 23px;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            &_active {
+                background: $gradient1;
+            }
+        }
+    }
+    &__footer {
+        margin-top: 17px;
+        display: inline-block;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 100%;
+        background: #1F2733;
+        border-radius: 22px;
+        padding: 6px 9px;
+        cursor: pointer
+    }
+}
+
+.choose {
+    font-weight: normal;
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 11px 23px;
+    &:last-child {
+        margin-right: 0;
+    }
+    &_active {
+        background: $gradient1;
+        border-radius: 56px;
+        padding: 11px 23px;
+    }
+}
+
+/* дроп */
+
+.dropbtn {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    outline: 0;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropbtn img {
+    transition: all 1s;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.dropdown {
+    display: none;
+    position: relative;
+    border-radius: 9px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(13,15,26, 1);
+    z-index: 1;
+    width: 100%;
+    margin-top: -22px;
+    .choose {
+        border-radius: 9px;
+        margin-right: 0;
+    }
+}
+
+.dropdown-content p {
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+    cursor: pointer
+}
+
+.show {
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 9px 9px;
+    height: auto;
+    padding: 15px;
+}

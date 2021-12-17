@@ -1,0 +1,202 @@
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px transparent;
+    border-radius: 22px;
+
+    // для выравнивания на 1 сттанице
+    label {
+        margin-bottom: -7px;
+    }
+
+    header {
+        display: table-header-group !important;
+    }
+
+    .tbody {
+        display: table-row-group;
+
+        .tr {
+            &:last-child {
+                span {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+    .tr {
+        display: table-row;
+
+        // для первой страницы
+        // background: $blockBG;
+        // border-radius: 22px;
+        // padding: 7px 25px 20px;
+        >span {
+            display: table-cell;
+            padding: 13px 13px 13px 0;
+            border-bottom: 1px solid #1F2733;
+            text-align: center;
+            align-items: center;
+            // от переносов
+            white-space: nowrap;
+            &:nth-child(1) {
+                text-align: left;
+            }
+        }
+
+    }
+
+    .th {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 116%;
+        color: #6B7078;
+        border-bottom: 1px solid #1F2733;
+    }
+    .title {
+        display: none;
+    }
+    .spacer {
+        display: none;
+    }
+}
+
+// #00FF00
+
+
+@media (max-width: 900px) {
+
+    .line__content {
+        .table {
+            display: block;
+            header {
+                display: none !important;
+            }
+            .tbody {
+                display: block;
+            }
+            .tr {
+                display: block;
+                border-top: 1px solid #1F2733;
+                padding: 5px 0;
+                &:last-child {
+                    // border-bottom: 1px solid #1F2733;
+                    border-bottom: none;
+                }
+                > span {
+                    padding: 5px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: none;
+                    text-align: left;
+                }
+            }
+            .tr > span::before {
+                display: inline-block;
+                width: 33%;
+                margin-right: 10px;
+                font-weight: bold;
+            }
+            .title {
+                display: inline-block;
+                // width: 30%;
+                font-weight: normal;
+                // font-size: 16px;
+                // line-height: 18px;
+                color: #6B7078;
+            }
+        }
+    
+        .tab__1-block1 {
+            .table {
+                .tr {
+                    &:first-child {
+                        border-top: none;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+// #00FF00
+
+@media (max-width: 768px) {
+
+    .table {
+        display: block;
+        header {
+            display: none !important;
+        }
+        .tbody {
+            display: block;
+        }
+        .tr {
+            display: block;
+            border-top: 1px solid #1F2733;
+            padding: 5px 0;
+            &:last-child {
+                // border-bottom: 1px solid #1F2733;
+                border-bottom: none;
+            }
+            > span {
+                padding: 5px 0;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: none;
+                text-align: left;
+            }
+        }
+        .tr > span::before {
+            display: inline-block;
+            width: 33%;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .title {
+            display: inline-block;
+            // width: 30%;
+            font-weight: normal;
+            // font-size: 16px;
+            // line-height: 18px;
+            color: #6B7078;
+        }
+    }
+
+    .tab__1-block1 {
+        .table {
+            .tr {
+                &:first-child {
+                    border-top: none;
+                }
+            }
+        }
+    }
+}
+// #00FF00
+
+@media (max-width: 620px) {
+    .title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .require {
+        padding: 2px 5px;
+        font-size: 10px !important;
+    }
+}
+
+/* линия в таблице сверху */
+
+.tab__4 .table .tbody p:first-child {
+    border-top: none;
+}

@@ -1,0 +1,5457 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Личный кабинет | BAO</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+	<link rel="stylesheet" href="fonts/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+<div class="menu">
+	<div class="side__menu side__menu_mobile">
+		<div class="profile">
+			<div class="profile__img">
+				<img src="img/profile.png" alt="">
+				<div class="profile__status status_on"></div>
+			</div>
+			<div class="profile__descr">
+				<div class="profile__name">kris_anfalova</div>
+				<div class="profile__level">4 уровень</div>
+			</div>
+		</div>
+
+		<div class="menu__tabs">
+
+			<div class="tab tab_active">
+				<img src="img/tabs/1.svg" alt="">
+				<div class="tab__name">Кабинет</div>
+			</div>
+
+			<div class="tab">
+				<img src="img/tabs/2.svg" alt="">
+				<div class="tab__name">Пополнение баланса</div>
+			</div>
+
+			<div class="tab to_tariffs">
+				<img src="img/tabs/3.svg" alt="">
+				<div class="tab__name">Тарифные планы</div>
+			</div>
+
+			<div class="tab to_partners">
+				<img src="img/tabs/4.svg" alt="">
+				<div class="tab__name">Мои партнеры</div>
+			</div>
+
+			<div class="tab to_materials">
+				<img src="img/tabs/5.svg" alt="">
+				<div class="tab__name">Партнерские материалы</div>
+			</div>
+
+			<div class="tab">
+				<img src="img/tabs/6.svg" alt="">
+				<div class="tab__name">Вывод средств</div>
+			</div>
+
+			<div class="tab">
+				<img src="img/tabs/7.svg" alt="">
+				<div class="tab__name">Promo</div>
+			</div>
+
+			<div class="tab to_history">
+				<img src="img/tabs/8.svg" alt="">
+				<div class="tab__name">История операций</div>
+			</div>
+
+			<div class="tab">
+				<img src="img/tabs/9.svg" alt="">
+				<div class="tab__name">Настройки</div>
+			</div>
+
+			<div class="tab to_contacts">
+				<img src="img/tabs/10.svg" alt="">
+				<div class="tab__name">Контакты</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="overlay"></div>
+		<div class="menu__close">
+			<img src="img/close.svg" alt="">
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<section class="main">
+
+		<div class="side__menu mdn">
+
+			<img src="img/arrows/arrow-left.svg" alt="">
+			<a class="side__menu-link" href="#">Вернуться на главную</a>
+
+			<div class="profile">
+				<div class="profile__img">
+					<img src="img/profile.png" alt="">
+					<div class="profile__status status_on"></div>
+				</div>
+				<div class="profile__descr">
+					<div class="profile__name">kris_anfalova</div>
+					<div class="profile__level">4 уровень</div>
+				</div>
+			</div>
+	
+			<div class="menu__tabs">
+	
+				<div class="tab tab_active">
+					<img src="img/tabs/1.svg" alt="">
+					<div class="tab__name">Кабинет</div>
+				</div>
+	
+				<div class="tab">
+					<img src="img/tabs/2.svg" alt="">
+					<div class="tab__name">Пополнение баланса</div>
+				</div>
+	
+				<div class="tab to_tariffs">
+					<img src="img/tabs/3.svg" alt="">
+					<div class="tab__name">Тарифные планы</div>
+				</div>
+	
+				<div class="tab to_partners">
+					<img src="img/tabs/4.svg" alt="">
+					<div class="tab__name">Мои партнеры</div>
+				</div>
+	
+				<div class="tab to_materials">
+					<img src="img/tabs/5.svg" alt="">
+					<div class="tab__name">Партнерские материалы</div>
+				</div>
+	
+				<div class="tab">
+					<img src="img/tabs/6.svg" alt="">
+					<div class="tab__name">Вывод средств</div>
+				</div>
+	
+				<div class="tab">
+					<img src="img/tabs/7.svg" alt="">
+					<div class="tab__name">Promo</div>
+				</div>
+	
+				<div class="tab to_history">
+					<img src="img/tabs/8.svg" alt="">
+					<div class="tab__name">История операций</div>
+				</div>
+	
+				<div class="tab">
+					<img src="img/tabs/9.svg" alt="">
+					<div class="tab__name">Настройки</div>
+				</div>
+	
+				<div class="tab to_contacts">
+					<img src="img/tabs/10.svg" alt="">
+					<div class="tab__name">Контакты</div>
+				</div>
+	
+			</div>
+		</div>
+	
+		<div class="header">
+			<div class="header__wrapper">
+				<div class="header__left mdn">Личный кабинет</div>
+				<div class="circle circle_left ddn">
+					<a href="#" class="header__left"><img src="img/arrows/arrow-left.svg" alt="">На главную</a>
+				</div>
+				<div class="header__right">
+					<div class="circle ddn">
+						<div class="header__right-persone">
+							<img src="img/header/persone.svg" alt="">
+						</div>
+					</div>
+					<div class="circle">
+						<div class="header__right-mail">
+							<img src="img/header/mail.svg" alt="">
+							<div class="header__right-notification"><span>2</span></div>
+						</div>
+					</div>
+					<div id="notify" class="circle">
+						<div class="header__right-bell">
+							<img src="img/header/bell.svg" alt="">
+							<div class="header__right-notification"><span>2</span></div>
+						</div>
+						<div class="notify">
+							<div class="notify__head">
+								<p>2 новых уведомления</p>
+								<p>Удалить все</p>
+								<p>Просмотреть<img src="img/arrows/arrow-right.svg" alt=""></p>
+								
+							</div>
+
+							<div class="notify__body">
+								<div class="notify__wrapper">
+									<div class="notify__title">Deoposit Successful</div>
+									<div class="notify__subtitle">You have  have deposites 13 13 TX at 2021...</div>
+									<div class="notify__date">1 час назад</div>
+								</div>
+
+								<div class="notify__wrapper">
+									<div class="notify__title">Deoposit Successful</div>
+									<div class="notify__subtitle">You have  have deposites 13 13 TX at 2021...</div>
+									<div class="notify__date">1 час назад</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="language" class="circle">
+						<div class="header__right-language">
+							<span>Рус</span><img class="circle__arrow" src="img/header/arrow.svg" alt="">
+						</div>
+
+						<div class="language">
+							<div class="language__block language__block_active"><img src="img/language/1.svg" alt=""> Рус</div>
+							<div class="language__block"><img src="img/language/1.svg" alt="">Рус</div>
+							<div class="language__block"><img src="img/language/1.svg" alt="">Рус</div>
+							<div class="language__block"><img src="img/language/2.svg" alt="">Eng</div>
+							<div class="language__block"><img src="img/language/2.svg" alt="">Eng</div>
+							<div class="language__block"><img src="img/language/2.svg" alt="">Eng</div>
+							<div class="language__block"><img src="img/language/3.svg" alt="">Deu</div>
+							<div class="language__block"><img src="img/language/3.svg" alt="">Deu</div>
+							<div class="language__block"><img src="img/language/3.svg" alt="">Deu</div>
+							<div class="language__block"><img src="img/language/4.svg" alt="">Tur</div>
+							<div class="language__block"><img src="img/language/4.svg" alt="">Tur</div>
+							<div class="language__block"><img src="img/language/4.svg" alt="">Tur</div>
+							<div class="language__block"><img src="img/language/5.svg" alt="">Spa</div>
+							<div class="language__block"><img src="img/language/5.svg" alt="">Spa</div>
+							<div class="language__block"><img src="img/language/5.svg" alt="">Spa</div>
+							<div class="language__block"><img src="img/language/6.svg" alt="">Tha</div>
+							<div class="language__block"><img src="img/language/6.svg" alt="">Tha</div>
+							<div class="language__block"><img src="img/language/6.svg" alt="">Tha</div>
+						</div>
+
+					</div>
+
+					<a class="header__right-exit mdn" href="#">
+						Выйти
+					</a>
+				</div>
+			</div>
+
+			<div class="reinvest">
+				<div class="reinvest__head">Депозит в 10.000 USDT закончил работу</div>
+				<div class="reinvest__descr">1 этап. 50% от депозита доступны к выводу 500 USDT от депозита на вывод</div>
+				<div class="reinvest__legend">
+					<p>реинвест</p>
+					<p>вывод</p>
+				</div>
+				<input type="range" min="1" max="100" step="1" value="75">
+				<div class="reinvest__value">
+					<span>500 USDT</span>
+					<span>500 USDT</span>
+				</div>
+				<div class="reinvest__wrapper">
+					<div class="reinvest__input">
+						<input type="checkbox" class="radio__custom" id="reinvest" checked="checked"> <label for="reinvest">Без реинвеста</label>
+					</div>
+					<button class="reinvest__button">Подтвердить</button>
+				</div>
+			</div>
+	
+			<div class="header__cards">
+				<div class="card">
+					<div class="card__img">
+						<img src="img/credit-card.png" alt="">
+					</div>
+					<div class="card__name">Баланс</div>
+					<div class="card__descr">
+						<div class="private">
+							<div class="private__name">личный</div>
+							<div class="private__sum">500 USDT</div>
+						</div>
+						<div class="partner">
+							<div class="partner__name">партнерский</div>
+							<div class="partner__sum">5.400 USDT</div>
+						</div>
+					</div>
+					<img class="card__arrow" src="img/arrows/arrow-card-1.svg" alt="">
+				</div>
+		
+				<div class="card">
+					<div class="card__img">
+						<img src="img/cash.png" alt="">
+					</div>
+					<div class="card__name">Прибыль</div>
+					<div class="card__descr">
+						<div class="private">
+							<div class="private__name">личный</div>
+							<div class="private__sum">500 USDT</div>
+						</div>
+						<div class="partner">
+							<div class="partner__name">партнерский</div>
+							<div class="partner__sum">5.400 USDT</div>
+						</div>
+					</div>
+					<img class="card__arrow" src="img/arrows/arrow-card-2.svg" alt="">
+				</div>
+		
+				<div class="card">
+					<div class="card__img">
+						<img src="img/partners.png" alt="">
+					</div>
+					<div class="card__name">Партнеры</div>
+					<div class="card__descr">
+						<div class="private">
+							<div class="private__name">1 линия</div>
+							<div class="private__wrapper">
+								<div class="private__sum private__sum_card3">12</div>
+								<div class="change"> <span>партнер /<br> сутки</span>
+									<span class="percentage red"> -1%</span>
+								</div>
+							</div>
+						</div>
+						<div class="partner">
+							<div class="partner__name">другие линии</div>
+							<div class="partner__wrapper">
+								<div class="partner__sum partner__sum_card3">91</div>
+								<div class="change"> <span>партнер /<br> сутки</span>
+									<span class="percentage green"> +1%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img class="card__arrow" src="img/arrows/arrow-card-3.svg" alt="">
+				</div>
+			</div>
+
+			<div class="tab__content tab__content_active">
+				<div class="tab__1">
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/1.svg" alt="">
+							<div class="tab__name">Кабинет</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="tab__1-block1">
+						<div class="tab__1-block1-inside">
+							<div class="table">								
+								<header>
+									<p class="tr">
+									<span class="th">Тариф</span>
+									<span class="th">% в день</span>
+									<span class="th">Сумма</span>
+									<span class="th">Начало</span>
+									<span class="th">Окончание</span>
+									<span class="th">Осталось дней</span>
+									<span class="th">Прибыль</span>
+									<span class="th">Автопродление</span>
+									<span class="th">Капитализация</span>
+									<span class="th">Статус</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Тариф</span>
+										<span class="subtitle">Базовый</span>
+									</span>
+									<span>
+										<span class="title">% в день</span>
+										<span class="subtitle">15%</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>  
+									</span>
+									<span>
+										<span class="title">Начало</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Окончание</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Осталось дней</span>
+										<span class="subtitle">245 дней</span>	
+									</span>
+									<span>
+										<span class="title">Прибыль</span>
+										<span class="subtitle">14 244 USDT</span>  
+									</span>
+									<span>
+										<span class="title">Автопродление</span>
+										<span class="subtitle">
+											
+											<label class="switch">
+												<input type="checkbox" checked>
+												<span class="slider round"></span>
+											</label>
+											
+										</span>  
+									</span>
+									<span>
+										<span class="title">Капитализация</span>
+										<span class="subtitle">
+											
+											<label class="switch">
+												<input type="checkbox" checked>
+												<span class="slider round"></span>
+											</label>
+											
+										</span>  
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle require trigger">требует действия</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+		
+									<p class="tr">
+										<span>
+											<span class="title">Тариф</span>
+											<span class="subtitle">Базовый</span>
+										</span>
+										<span>
+											<span class="title">% в день</span>
+											<span class="subtitle">15%</span>
+										</span>
+										<span>
+											<span class="title">Сумма</span>
+											<span class="subtitle">14 244 USDT</span>  
+										</span>
+										<span>
+											<span class="title">Начало</span>
+											<span class="subtitle">10.02.2021</span>	
+										</span>
+										<span>
+											<span class="title">Окончание</span>
+											<span class="subtitle">10.02.2021</span>	
+										</span>
+										<span>
+											<span class="title">Осталось дней</span>
+											<span class="subtitle">245 дней</span>	
+										</span>
+										<span>
+											<span class="title">Прибыль</span>
+											<span class="subtitle">14 244 USDT</span>  
+										</span>
+										<span>
+											<span class="title">Автопродление</span>
+											<span class="subtitle">
+												
+												<label class="switch">
+													<input type="checkbox" checked>
+													<span class="slider round"></span>
+												</label>
+												
+											</span>  
+										</span>
+										<span>
+											<span class="title">Капитализация</span>
+											<span class="subtitle">
+												
+												<label class="switch">
+													<input type="checkbox" checked>
+													<span class="slider round"></span>
+												</label>
+												
+											</span>  
+										</span>
+										<span>
+											<span class="title">Комментарий</span>
+											<span class="subtitle require trigger">требует действия
+											</span>
+										</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tab__1-block23">
+						<div class="tab__1-block2">
+							<div class="tab__1-block2-head">
+								<div class="tab__1-block2-head-descr">Прибыль</div>
+								<div class="charttime">
+									<span class="charttimechoose charttimechoose_active">неделя</span>
+									<span class="charttimechoose">месяц</span>
+									<span class="charttimechoose">год</span>
+									<span class="charttimechoose">за все время</span>
+								</div>
+							</div>
+
+							<div class="chart">
+								<div class="dotted"></div>
+								<div class="from">
+									<div>
+										<div class="color"></div>
+										<p>от партнеров</p>
+									</div>
+									<div>
+										<div class="color color_2"></div>
+										<p>личная</p>
+									</div>
+								</div>
+								<div class="y-axis">Прибыль</div>
+								<div class="x-axis">Время</div>
+								<div class="myfirstchart__wrapper">
+									<div id="myfirstchart" style="height: 100%; width: 100%"></div>
+								</div>
+							</div>
+
+						</div>
+
+
+						<div class="tab__1-block3">
+							<div class="tab__1-block3-head">
+								<div class="tab__1-block3-head-descr">Партнеры</div>
+								<div class="tab__1-block3-head-subdescr">все партнеры<img src="img/arrows/arrow-right-full.svg" alt="">
+								</div>
+							</div>
+							<div class="tab__1-block3-body">
+								<div class="tab__1-block3-partner">
+									<div class="tab__1-block3-partner-img">
+										<img src="img/profile.png" alt="">
+										<div class="tab__1-block3-partner-status status_on"></div>
+									</div>
+									<div class="tab__1-block3-partner-name">kris_anfalova</div>
+								</div>
+								<div class="tab__1-block3-partner-line">1 линия</div>
+							</div>
+							<div class="tab__1-block3-body">
+								<div class="tab__1-block3-partner">
+									<div class="tab__1-block3-partner-img">
+										<img src="img/profile.png" alt="">
+										<div class="tab__1-block3-partner-status status_on"></div>
+									</div>
+									<div class="tab__1-block3-partner-name">kris_anfalova</div>
+								</div>
+								<div class="tab__1-block3-partner-line">1 линия</div>
+							</div>
+							<div class="tab__1-block3-body">
+								<div class="tab__1-block3-partner">
+									<div class="tab__1-block3-partner-img">
+										<img src="img/profile.png" alt="">
+										<div class="tab__1-block3-partner-status status_on"></div>
+									</div>
+									<div class="tab__1-block3-partner-name">kris_anfalova</div>
+								</div>
+								<div class="tab__1-block3-partner-line">1 линия</div>
+							</div>
+							<div class="tab__1-block3-body">
+								<div class="tab__1-block3-partner">
+									<div class="tab__1-block3-partner-img">
+										<img src="img/profile.png" alt="">
+										<div class="tab__1-block3-partner-status status_off"></div>
+									</div>
+									<div class="tab__1-block3-partner-name">kris_anfalova</div>
+								</div>
+								<div class="tab__1-block3-partner-line">1 линия</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab__1-block4">
+						<div class="tab__1-block4-head">
+							<div class="tab__1-block4-head-descr">История операций</div>
+							<div class="tab__1-block4-head-subdescr from_operations">все операции<img src="img/arrows/arrow-right-full.svg" alt=""></div>
+						</div>
+						<div class="tab__1-block4-body">
+
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение счёта</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение счёта</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment"></span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение счёта</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение счёта</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">отклонено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment"></span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение счёта</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение счёта</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment"></span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__2">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/2.svg" alt="">
+							<div class="tab__name">Пополнение баланса</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="tab__2-block">
+						<div class="deposit__method">
+							<span class="currency currency_active">USDT TRC 20</span>
+							<span class="currency">Другие способы</span>
+						</div>
+						<div class="deposit__sum">Сумма пополнения</div>
+						<div class="deposit__currency deposit__currency_active">
+							<input type="text" class="deposit__input" placeholder="Введите сумму в USDT">
+						</div>
+						<div class="deposit__currency">
+							<input type="text" class="deposit__input" placeholder="Введите сумму валюты пополнения">
+						</div>
+						<button class="deposit__button">Пополнить баланс</button>
+					</div>
+
+					<div class="tab__choose">
+						<div class="tab__choose-head">
+							<span class="t2 choose choose_active">История пополнений</span>
+							<span class="t2 choose">Как пополнить баланс</span>
+							<span class="t2 choose">Видеоинструкция</span>
+						</div>
+	
+						<div class="c2 tab__subcontent tab__subcontent_active">
+							
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+	
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+	
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">отклонено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+	
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+	
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+	
+							<div class="tab__footer from_operations">все операции<img src="img/arrows/arrow-right-full.svg" alt=""></div>
+	
+						</div>
+	
+						<div class="c2 tab__subcontent">
+							<div class="how">
+								Переводы возможны только со своих счетов в других банках.
+								<div class="how__steps">
+									<div class="how__steps-row">
+										<div class="list">1.</div>
+										<span>Откройте мобильное приложение банка-партнёра СБП.</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">2.</div>
+										<span>Выберите счёт, который хотите пополнить.</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">3.</div>
+										<span>Нажмите «Пополнить» → «С моего счёта в другом банке».</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">4.</div>
+										<span>Выберите банк-получатель «НКО МОНЕТА», введите сумму, нажмите «Пополнить».</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">5.</div>
+										<span>Вам придёт смс со ссылкой для оплаты. Перейдите по ней и нажмите «Оплатить». Если смс не пришла, зайдите в личный кабинет МОНЕТА.РУ и установите счёт по умолчанию: «Мой счёт» → «Персональные данные» → «Система быстрых платежей» → «Установить счёт по умолчанию».</span>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="c2 tab__subcontent">
+							<div class="video">
+								<!-- <iframe src="https://www.youtube.com/embed/HjBHKouanaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__3">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/3.svg" alt="">
+							<div class="tab__name">Тарифные планы</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="tab__3-block1">
+						<div class="tab__3-block1-title">
+							Калькулятор доходности
+						</div>
+						<div class="calc">
+							<div class="tariff">
+								<p>Ваш тариф:</p>
+								<div class="tariff__choose tariff__choose_active">BAO S</div>
+								<div class="tariff__choose">BAO M</div>
+								<div class="tariff__choose">BAO L</div>
+							</div>
+
+							<div class="calc__input">
+								<div class="calc__input-title">
+									Сумма депозита
+								</div>
+								<input type="text" class="deposit__input" placeholder="Введите сумму в USDT">
+								<div class="capitalization">
+									<div>
+										<label class="switch switch_mini">
+											<input type="checkbox">
+											<span class="slider round slider_mini"></span>
+											</label>
+									</div>
+									<p>Капитализация</p>
+								</div>
+							</div>
+
+							<div class="result">
+								<div class="result__wrapper">
+									<div class="result__count">Общая сумма прибыли</div>
+									<div class="result__count">500 USDT</div>
+								</div>
+								<div class="result__wrapper">
+									<div class="result__count">Общий процент прибыли</div>
+									<div class="result__count">1.5%</div>
+								</div>
+								<div class="result__wrapper">
+									<div class="result__count">Дата возврата депозита</div>
+									<div class="result__count">10.05.2021</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="tab__3-block2">
+						<div class="tariff__card">
+							<div class="tariff__card-head s br22">
+								<div class="tariff__card-title">
+									<img src="img/bao1.svg" alt="">
+									<span>BAO S</span>
+								</div>
+								<div class="tariff__card-subtitle">
+									<div>1%</div>
+									<span>10 рабочих дней <br> от 500 USDT</span>
+								</div>
+								<div class="tariff__status status_none"></div>
+								<div class="tariff__arrow tariff__arrow_s">
+									<img src="img/arrows/arrow-tariff.svg" alt="">
+								</div>
+							</div>
+							<div class="tariff__card-body tariff__card-body_s hide">
+								<div class="tariff__input">
+									<div class="tariff__input-title">
+										Сумма депозита
+									</div>
+									<input type="text" class="deposit__input" placeholder="Введите сумму в USDT">
+								</div>
+								<div class="tariff__result">
+									<div>
+										<span>Итого вы получите:</span>
+										<span>500 USDT</span>
+									</div>
+									<div>
+										<span>Возврат депозита:</span>
+										<span>500 USDT</span>
+									</div>
+								</div>									
+								<button class="tariff__button">
+									Инвестировать
+								</button>
+								<div class="capitalization capitalization_double">
+									<div>
+										<label class="switch switch_mini">
+											<input type="checkbox" checked>
+											<span class="slider round slider_mini"></span>
+										</label>
+										<p>Автопродление</p>
+									</div>
+
+									<div>
+										<label class="switch switch_mini">
+											<input type="checkbox">
+											<span class="slider round slider_mini"></span>
+										</label>
+										<p>Капитализация</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="tariff__card">
+							<div class="tariff__card-head m br22">
+								<div class="tariff__card-title">
+									<img src="img/bao2.svg" alt="">
+									<span>BAO M</span>
+								</div>
+								<div class="tariff__card-subtitle">
+									<div>2%</div>
+									<span>10 рабочих дней <br> от 500 USDT</span>
+								</div>
+								<div class="tariff__status status_off"></div>
+								<div class="tariff__arrow tariff__arrow_m">
+									<img src="img/arrows/arrow-tariff.svg" alt="">
+								</div>
+							</div>
+							<div class="tariff__card-body tariff__card-body_m hide">
+								<div class="tariff__input">
+									<div class="tariff__input-title">
+										Сумма депозита
+									</div>
+									<input type="text" class="deposit__input" placeholder="Введите сумму в USDT">
+								</div>
+								<div class="tariff__result">
+									<div>
+										<span>Итого вы получите:</span>
+										<span>500 USDT</span>
+									</div>
+									<div>
+										<span>Возврат депозита:</span>
+										<span>500 USDT</span>
+									</div>
+								</div>									
+								<button class="tariff__button">
+									Инвестировать
+								</button>
+								<div class="capitalization capitalization_double">
+									<div>
+										<label class="switch switch_mini">
+											<input type="checkbox" checked>
+											<span class="slider round slider_mini"></span>
+										</label>
+										<p>Автопродление</p>
+									</div>
+
+									<div>
+										<label class="switch switch_mini">
+											<input type="checkbox">
+											<span class="slider round slider_mini"></span>
+										</label>
+										<p>Капитализация</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="tariff__card">
+							<div class="tariff__card-head l br22">
+								<div class="tariff__card-title">
+									<img src="img/bao3.svg" alt="">
+									<span>BAO L</span>
+								</div>
+								<div class="tariff__card-subtitle">
+									<div>2.5%</div>
+									<span>10 рабочих дней <br> от 500 USDT</span>
+								</div>
+								<div class="tariff__status status_on"></div>
+								<div class="tariff__arrow tariff__arrow_l">
+									<img src="img/arrows/arrow-tariff.svg" alt="">
+								</div>
+							</div>
+							<div class="tariff__card-body tariff__card-body_l hide">
+								<div class="tariff__input">
+									<div class="tariff__input-title">
+										Сумма депозита
+									</div>
+									<input type="text" class="deposit__input" placeholder="Введите сумму в USDT">
+								</div>
+								<div class="tariff__result">
+									<div>
+										<span>Итого вы получите:</span>
+										<span>500 USDT</span>
+									</div>
+									<div>
+										<span>Возврат депозита:</span>
+										<span>500 USDT</span>
+									</div>
+								</div>									
+								<button class="tariff__button">
+									Инвестировать
+								</button>
+								<div class="capitalization capitalization_double">
+									<div>
+										<label class="switch switch_mini">
+											<input type="checkbox" checked>
+											<span class="slider round slider_mini"></span>
+										</label>
+										<p>Автопродление</p>
+									</div>
+
+									<div>
+										<label class="switch switch_mini">
+											<input type="checkbox">
+											<span class="slider round slider_mini"></span>
+										</label>
+										<p>Капитализация</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tab__choose">
+						<div class="tab__choose-head">
+							<span class="t3 choose choose_active">История тарифов</span>
+							<span class="t3 choose">Как пополнить баланс</span>
+							<span class="t3 choose">Видеоинструкция</span>
+						</div>
+
+						<div class="dropdown">
+							<div class="dropbtn">
+								<span>История тарифов</span> <img src="img/arrows/arrow-down.svg" alt="" class="">
+							</div>
+							<div id="myDropdown-3" class="dropdown-content">
+								<p class="t3 choose choose_active">История тарифов</p>
+								<p class="t3 choose">Как пополнить баланс</p>
+								<p class="t3 choose">Видеоинструкция</p>
+							</div>
+						</div>
+
+						<div class="c3 tab__subcontent tab__subcontent_active">
+							
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Покупка тарифа BAO S</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">приобретен</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Покупка тарифа BAO S</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">приобретен</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Покупка тарифа BAO S</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">приобретен</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Покупка тарифа BAO S</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">завершен</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Покупка тарифа BAO S</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">завершен</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Покупка тарифа BAO M</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">завершен</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+
+							<div class="tab__footer from_operations">все операции<img src="img/arrows/arrow-right-full.svg" alt=""></div>
+
+						</div>
+
+						<div class="c3 tab__subcontent">
+							<div class="how">
+								Переводы возможны только со своих счетов в других банках.
+								<div class="how__steps">
+									<div class="how__steps-row">
+										<div class="list">1.</div>
+										<span>Откройте мобильное приложение банка-партнёра СБП.</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">2.</div>
+										<span>Выберите счёт, который хотите пополнить.</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">3.</div>
+										<span>Нажмите «Пополнить» → «С моего счёта в другом банке».</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">4.</div>
+										<span>Выберите банк-получатель «НКО МОНЕТА», введите сумму, нажмите «Пополнить».</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">5.</div>
+										<span>Вам придёт смс со ссылкой для оплаты. Перейдите по ней и нажмите «Оплатить». Если смс не пришла, зайдите в личный кабинет МОНЕТА.РУ и установите счёт по умолчанию: «Мой счёт» → «Персональные данные» → «Система быстрых платежей» → «Установить счёт по умолчанию».</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="c3 tab__subcontent">
+							<div class="video">
+								<!-- <iframe src="https://www.youtube.com/embed/HjBHKouanaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__4">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/4.svg" alt="">
+							<div class="tab__name">Мои партнеры</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="tab__4-wrapper">
+						<div class="tab__4-block">
+							<div class="tab__4-block-title">Мой старший партнер</div>
+							<div class="contacts2__wrapper">
+								<div class="contacts2__subwrapper">
+									<a href="https://web.telegram.org/" target="_blank">
+										<div class="contacts2__img">
+											<img src="img/contacts/tg.svg" alt="">
+										</div>
+										Telegram_login
+									</a>
+		
+									<a href="https://www.google.com/intl/ru/gmail/about/" target="_blank">
+										<div class="contacts2__img">
+											<img src="img/contacts/mail.svg" alt="">
+										</div>
+										anfalovakristina@gmail.com
+									</a>
+								</div>
+	
+								<div class="contacts2__subwrapper contacts2__subwrapper_2">
+									<div>
+										<a href="https://www.vk.com/" target="_blank">
+											<div class="contacts2__img">
+												<img src="img/contacts/vk.svg" alt="">
+											</div>
+										</a>
+			
+										<a href="https://www.youtube.com/" target="_blank">
+											<div class="contacts2__img">
+												<img src="img/contacts/youtube.svg" alt="">
+											</div>
+										</a>
+									</div>
+		
+									<div>
+										<a href="https://www.instagram.com/" target="_blank">
+											<div class="contacts2__img">
+												<img src="img/contacts/ig.svg" alt="">
+											</div>
+										</a>
+		
+										<a href="https://www.facebook.com/" target="_blank">
+											<div class="contacts2__img contacts2__img_inactive">
+												<img src="img/contacts/fb.svg" alt="">
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="profile2">
+									<div class="profile2__img">
+										<img src="img/partner.png" alt="">
+										<div class="profile2__status"></div>
+									</div>
+									<div class="profile2__descr">
+										<div class="profile2__name">kris_anfalova</div>
+										<div class="profile2__level">4 уровень</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab__4-block">
+							
+							<div class="tab__4-block-title">Ваш статус</div>			
+							<div class="tab__4-block-level tab__4-block-level_done">7 level</div>
+							<div class="tab__4-block-level tab__4-block-level_current">6 level</div>
+							<div class="tab__4-block-level tab__4-block-level_future">5 level</div>
+							<div class="tab__4-block-level">4 level</div>
+							<div class="tab__4-block-level">3 level</div>
+							<div class="tab__4-block-level">2 level</div>
+							<div class="tab__4-block-level">1 level</div>
+							<div class="tab__4-block-level">Partner</div>
+
+						</div>
+
+						<div class="tab__4-block">
+							<div class="input__wrapper">
+								<div class="input__title">Партнерская ссылка</div>
+								<input id="copyInput" class="input__area input__area_transparent" type="text" value="bao.io/23ewqsdwda324234ede">
+								<img class="input__img" id="copyButton" src="img/copy.svg" alt="">
+							</div>
+						</div>
+
+						<div class="tab__4-block">
+							<div class="tab__4-block-title">Переходов/регистраций</div>
+							<div class="tab__4-block-counter">105 / 32</div>
+						</div>
+
+					</div>
+
+					<div class="line">
+						<div class="line__list">
+
+							<div class="line__profile line__profile_active">
+								<div class="line__profile-name">1 линия
+									<span class="line__profile-status"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>10</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>					
+							</div>
+
+							<div class="line__profile">
+								<div class="line__profile-name">2 линия
+									<span class="line__profile-status"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>5</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>								
+							</div>
+
+							<div class="line__profile">
+								<div class="line__profile-name">3 линия
+									<span class="line__profile-status status_on"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>10</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>								
+							</div>
+
+							<div class="line__profile">
+								<div class="line__profile-name">4 линия
+									<span class="line__profile-status status_on"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>5</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>								
+							</div>
+
+							<div class="line__profile">
+								<div class="line__profile-name">5 линия
+									<span class="line__profile-status"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>10</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>								
+							</div>
+
+							<div class="line__profile">
+								<div class="line__profile-name">6 линия
+									<span class="line__profile-status"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>5</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>								
+							</div>
+
+							<div class="line__profile">
+								<div class="line__profile-name">7 линия
+									<span class="line__profile-status"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>10</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>								
+							</div>
+
+							<div class="line__profile">
+								<div class="line__profile-name">8 линия
+									<span class="line__profile-status"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>5</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>								
+							</div>
+
+							<div class="line__profile">
+								<div class="line__profile-name">9 линия
+									<span class="line__profile-status"></span>
+								</div>
+								<div class="line__wrapper" >
+									<div class="line__notification"><span>10</span></div>
+									<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+								</div>								
+							</div>
+
+						</div>
+
+						<div class="line__title">Мои партнеры</div>
+
+						<div class="dropdown4">
+							<div class="dropbtn4"><span>1 линия</span><img src="img/arrows/arrow-down.svg" alt=""></div>
+							<div id="myDropdown-4" class="dropdown-content4">
+								
+								<div class="line__profile line__profile_active">
+									<div class="line__profile-name">1 линия
+										<span class="line__profile-status"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>10</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>					
+								</div>
+							
+							
+								<div class="line__profile">
+									<div class="line__profile-name">2 линия
+										<span class="line__profile-status"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>5</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>								
+								</div>
+	
+								<div class="line__profile">
+									<div class="line__profile-name">3 линия
+										<span class="line__profile-status status_on"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>10</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>								
+								</div>
+	
+								<div class="line__profile">
+									<div class="line__profile-name">4 линия
+										<span class="line__profile-status status_on"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>5</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>								
+								</div>
+	
+								<div class="line__profile">
+									<div class="line__profile-name">5 линия
+										<span class="line__profile-status"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>10</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>								
+								</div>
+	
+								<div class="line__profile">
+									<div class="line__profile-name">6 линия
+										<span class="line__profile-status"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>5</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>								
+								</div>
+	
+								<div class="line__profile">
+									<div class="line__profile-name">7 линия
+										<span class="line__profile-status"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>10</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>								
+								</div>
+	
+								<div class="line__profile">
+									<div class="line__profile-name">8 линия
+										<span class="line__profile-status"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>5</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>								
+								</div>
+	
+								<div class="line__profile">
+									<div class="line__profile-name">9 линия
+										<span class="line__profile-status"></span>
+									</div>
+									<div class="line__wrapper" >
+										<div class="line__notification"><span>10</span></div>
+										<img class="line__profile-img" src="img/arrows/arrow-right.svg" alt="">
+									</div>								
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content line__content_active">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova2</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova3</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova4</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova5</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova6</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova7</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova8</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="line__content">
+							<div class="line__content-inside">
+								<div class="table">
+									<header>
+										<p class="tr">
+										<span class="th">Логин</span>
+										<span class="th">Дата регистрации</span>
+										<span class="th">Тарифный план</span>
+										<span class="th">Контакты</span>
+										</p>
+									</header>
+									<div class="tbody">
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova9</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+										<p class="spacer">&nbsp;</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+
+										<p class="tr">
+										<span>
+											<span class="title">Логин</span>
+											<span class="subtitle">kris_anfalova</span>
+										</span>
+										<span>
+											<span class="title">Дата регистрации</span>
+											<span class="subtitle">10.02.2021</span>
+										</span>
+										<span>
+											<span class="title">Тарифный план</span>
+											<span class="subtitle">BAO M / 1000 USDT</span>										  
+										</span>
+										<span>
+											<span class="title">Контакты</span>
+											<span class="subtitle">anfalovakristina@gmail.com</span>	
+										</span>
+										</p>
+																							  
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__5">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/5.svg" alt="">
+							<div class="tab__name">Партнерские материалы</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="tab__choose-head">
+						<span class="t5 choose choose_active">Баннеры</span>
+						<span class="t5 choose">PDF</span>
+						<span class="t5 choose">Видео</span>
+						<span class="t5 choose">Креативы</span>
+					</div>
+
+					<div class="dropdown">
+						<div class="dropbtn"><span>Баннеры</span> <img src="img/arrows/arrow-down.svg" alt=""></div>
+						<div id="myDropdown-2" class="dropdown-content">
+							<p class="t5 choose choose_active">Баннеры</p>
+							<p class="t5 choose">PDF</p>
+							<p class="t5 choose">Видео</p>
+							<p class="t5 choose">Креативы</p>
+						</div>
+					</div>
+
+					<div class="c5 tab__subcontent tab__subcontent_active">
+						<div class="tab__5-title">
+							English
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner1.jpg" alt="">
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner2.jpg" alt="">
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner3.jpg" alt="">
+						</div>
+
+						<div class="tab__5-title">
+							Русский
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner1.jpg" alt="">
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner2.jpg" alt="">
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner3.jpg" alt="">
+						</div>
+					</div>
+
+					<div class="c5 tab__subcontent">
+						<div class="tab__5-title">
+							<a href="pdf/pdf.pdf">Скачать PDF с условиями инвестиций</a>
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner3.jpg" alt="">
+						</div>
+					</div>
+					<div class="c5 tab__subcontent">
+						<div class="video">
+							<!-- <iframe src="https://www.youtube.com/embed/HjBHKouanaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+						</div>
+					</div>
+					<div class="c5 tab__subcontent">
+						<div class="tab__5-title">
+							English creative
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner1.jpg" alt="">
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner2.jpg" alt="">
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner3.jpg" alt="">
+						</div>
+
+						<div class="tab__5-title">
+							Русский креатив
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner1.jpg" alt="">
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner2.jpg" alt="">
+						</div>
+						<div class="tab__5-banner">
+							<img src="img/banner/banner3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__6">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/6.svg" alt="">
+							<div class="tab__name">Вывод средств</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="tab__6-block">
+						<div class="tab__6-hide">Вывод</div>
+						<div class="tab__6-block-head">
+							<span class="withdraw withdraw_active dn785">Вывод личных средств</span>
+							<span class="withdraw dn785">Вывод партнерских средств</span>
+							<span class="withdraw withdraw_active db785">Личные средства</span>
+							<span class="withdraw db785">Партнерские средства</span>
+						</div>
+	
+						<div class="tab__6-block-body">
+							<div class="withdraw__input-wrapper">
+								<div class="withdraw__input">
+									<div class="withdraw__title">Сумма вывода</div>
+									<input type="text" placeholder="Введите сумму в USDT">
+	
+								</div>
+								<div class="withdraw__input">
+									<div class="withdraw__title">Номер кошелька</div>
+									<input type="text" placeholder="Номер вашего USDT кошелька">
+								</div>
+							</div>
+	
+							<div class="withdraw__result">
+								<div class="withdraw__result-title">Итого к выводу</div>
+								<div class="withdraw__result-sum">500 USDT</div>
+							</div>
+							<button class="withdraw__button">Вывести средства</button>
+						</div>
+					</div>
+
+					<div class="tab__choose">
+						<div class="tab__choose-head">
+							<span class="t6 choose choose_active">История выводов</span>
+							<span class="t6 choose">Как вывести средства</span>
+							<span class="t6 choose">Видеоинструкция</span>
+						</div>
+
+						<div class="c6 tab__subcontent tab__subcontent_active">
+							
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">отклонено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+
+							<div class="tab__footer from_operations">все операции<img src="img/arrows/arrow-right-full.svg" alt=""></div>
+
+						</div>
+
+						<div class="c6 tab__subcontent">
+							<div class="how">
+								Переводы возможны только со своих счетов в других банках.
+								<div class="how__steps">
+									<div class="how__steps-row">
+										<div class="list">1.</div>
+										<span>Откройте мобильное приложение банка-партнёра СБП.</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">2.</div>
+										<span>Выберите счёт, который хотите пополнить.</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">3.</div>
+										<span>Нажмите «Пополнить» → «С моего счёта в другом банке».</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">4.</div>
+										<span>Выберите банк-получатель «НКО МОНЕТА», введите сумму, нажмите «Пополнить».</span>
+									</div>
+									<div class="how__steps-row">
+										<div class="list">5.</div>
+										<span>Вам придёт смс со ссылкой для оплаты. Перейдите по ней и нажмите «Оплатить». Если смс не пришла, зайдите в личный кабинет МОНЕТА.РУ и установите счёт по умолчанию: «Мой счёт» → «Персональные данные» → «Система быстрых платежей» → «Установить счёт по умолчанию».</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="c6 tab__subcontent">
+							<div class="video">
+								<!-- <iframe src="https://www.youtube.com/embed/HjBHKouanaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+							</div>
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__7">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/7.svg" alt="">
+							<div class="tab__name">Promo</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="promo__hide">Акции</div>
+
+					<div class="tab__7-block">
+						<div class="tab__7-block-img">
+							<img src="img/banner/promo.jpg" alt="">
+						</div>
+						<div class="tab__7-block-text">
+							<span class="promo__status promo__status_on">Активно</span>
+							<span class="promo__date">до 20.01.2022</span>
+							<div class="promo__title">Отличное предложение — получи $25 бонус к первому депозиту!</div>
+							<div class="promo__descr">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+							</div>
+							<div class="promo__more">Подробнее<img src="img/arrows/morearrow.svg" alt=""></div>
+						</div>
+					</div>
+
+					<div class="tab__7-block">
+						<div class="tab__7-block-img">
+							<img src="img/banner/promo.jpg" alt="">
+						</div>
+						<div class="tab__7-block-text">
+							<span class="promo__status promo__status_off">Завершено</span>
+							<span class="promo__date">до 20.01.2022</span>
+							<div class="promo__title">Отличное предложение — получи $25 бонус к первому депозиту!</div>
+							<div class="promo__descr">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+
+							</div>
+							<div class="promo__more">Подробнее<img src="img/arrows/morearrow.svg" alt=""></div>
+						</div>
+					</div>
+
+					<div class="tab__7-block">
+						<div class="tab__7-block-img">
+							<img src="img/banner/promo.jpg" alt="">
+						</div>
+						<div class="tab__7-block-text">
+							<span class="promo__status promo__status_off">Завершено</span>
+							<span class="promo__date">до 20.01.2022</span>
+							<div class="promo__title">Отличное предложение — получи $25 бонус к первому депозиту!</div>
+							<div class="promo__descr">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+								Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!
+							</div>
+							<div class="promo__more">Подробнее<img src="img/arrows/morearrow.svg" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__8">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/8.svg" alt="">
+							<div class="tab__name">История операций</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+				
+					<div class="tab__choose">
+						<div class="tab__choose-head">
+							<span class="t8 choose choose_active">Все операции</span>
+							<span class="t8 choose">Пополнения</span>
+							<span class="t8 choose">Начисления</span>
+							<span class="t8 choose">Партнерские</span>
+							<span class="t8 choose">Вывод</span>
+						</div>
+
+						<div class="dropdown">
+							<div class="dropbtn"><span>Все операции</span> <img src="img/arrows/arrow-down.svg" alt=""></div>
+							<div id="myDropdown" class="dropdown-content">
+								<p class="t8 choose choose_active">Все операции</p>
+								<p class="t8 choose">Пополнения</p>
+								<p class="t8 choose">Начисления</p>
+								<p class="t8 choose">Партнерские</p>
+								<p class="t8 choose">Вывод</p>
+							</div>
+						</div>
+
+						<div class="c8 tab__subcontent tab__subcontent_active">
+							
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">отклонено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+
+							<div class="tab__pagination">
+								<div class="tab__pagination-item tab__pagination-item_active">1</div>
+								<div class="tab__pagination-item">2</div>
+								<div class="tab__pagination-item">3</div>
+								<div class="tab__pagination-item">4</div>
+								<div class="tab__pagination-item">5</div>
+								<div class="tab__pagination-item">6</div>
+							</div>
+
+						</div>
+
+						<div class="c8 tab__subcontent">
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса2</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">отклонено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+
+							<div class="tab__pagination">
+								<div class="tab__pagination-item tab__pagination-item_active">1</div>
+								<div class="tab__pagination-item">2</div>
+								<div class="tab__pagination-item">3</div>
+								<div class="tab__pagination-item">4</div>
+								<div class="tab__pagination-item">5</div>
+								<div class="tab__pagination-item">6</div>
+							</div>
+						</div>
+
+						<div class="c8 tab__subcontent">
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса3</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">отклонено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+
+							<div class="tab__pagination">
+								<div class="tab__pagination-item tab__pagination-item_active">1</div>
+								<div class="tab__pagination-item">2</div>
+								<div class="tab__pagination-item">3</div>
+								<div class="tab__pagination-item">4</div>
+								<div class="tab__pagination-item">5</div>
+								<div class="tab__pagination-item">6</div>
+							</div>
+						</div>
+
+						<div class="c8 tab__subcontent">
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса4</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">отклонено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+
+							<div class="tab__pagination">
+								<div class="tab__pagination-item tab__pagination-item_active">1</div>
+								<div class="tab__pagination-item">2</div>
+								<div class="tab__pagination-item">3</div>
+								<div class="tab__pagination-item">4</div>
+								<div class="tab__pagination-item">5</div>
+								<div class="tab__pagination-item">6</div>
+							</div>
+						</div>
+
+						<div class="c8 tab__subcontent">
+							<div class="table">
+								<header>
+									<p class="tr">
+									<span class="th">Операция</span>
+									<span class="th">Статус</span>
+									<span class="th">Сумма</span>
+									<span class="th">Дата</span>
+									<span class="th">Комментарий</span>
+									</p>
+								</header>
+								<div class="tbody">
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса5</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+					
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_rejected">отклонено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_paid">оплачено</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>
+									<p class="spacer">&nbsp;</p>
+
+									<p class="tr">
+									<span>
+										<span class="title">Операция</span>
+										<span class="subtitle">Пополнение баланса</span>
+									</span>
+									<span>
+										<span class="title">Статус</span>
+										<span class="subtitle subtitle_process">в процессе</span>
+									</span>
+									<span>
+										<span class="title">Сумма</span>
+										<span class="subtitle">14 244 USDT</span>										  
+									</span>
+									<span>
+										<span class="title">Дата</span>
+										<span class="subtitle">10.02.2021</span>	
+									</span>
+									<span>
+										<span class="title">Комментарий</span>
+										<span class="subtitle subtitle_comment">продление аккаунта</span>
+									</span>
+									</p>									  
+								</div>
+							</div>
+
+							<div class="tab__pagination">
+								<div class="tab__pagination-item tab__pagination-item_active">1</div>
+								<div class="tab__pagination-item">2</div>
+								<div class="tab__pagination-item">3</div>
+								<div class="tab__pagination-item">4</div>
+								<div class="tab__pagination-item">5</div>
+								<div class="tab__pagination-item">6</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__9">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/9.svg" alt="">
+							<div class="tab__name">Настройки</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="tab__9-block">
+						<div class="tab__9-block-title">Личные данные</div>
+						<div class="input">
+							<div class="input__wrapper">
+								<div class="input__title">Логин</div>
+								<input class="input__area input__area_transparent" type="text" placeholder="Kris_anfalova">
+							</div>
+							<div class="input__wrapper">
+								<div class="input__title">Ваше имя</div>
+								<input class="input__area input__area_transparent" type="text" placeholder="Кристина">
+							</div>
+							<div class="input__wrapper">
+								<div class="input__title">Электронная почта</div>
+								<input class="input__area input__area_transparent" type="text" placeholder="anfalovakristina@gmail.com">
+								<div class="verify"><img src="img/done.svg" alt=""></div>
+							</div>
+						</div>
+
+						<div class="socials">
+							<div class="socials__title">Привязать социальные сети:</div>
+							<div class="socials__wrapper">
+								<div class="socials__input socials__input_chained">
+									<div class="socials__name">Telegram</div>
+									<input type="text" placeholder="@kris_anfalova">
+								</div>
+
+								<div class="socials__input">
+									<div class="socials__name">Instagram</div>
+									<input type="text" placeholder="не привязан">
+								</div>
+
+								<div class="socials__input">
+									<div class="socials__name">Facebook</div>
+									<input type="text" placeholder="не привязан">
+								</div>
+
+								<div class="socials__input">
+									<div class="socials__name">Youtube</div>
+									<input type="text" placeholder="не привязан">
+								</div>
+
+								<div class="socials__input">
+									<div class="socials__name">Вконтакте</div>
+									<input type="text" placeholder="не привязан">
+								</div>
+							</div>
+						</div>
+						<button class="tab__9_button">Сохранить изменения</button>
+					</div>
+
+					<div class="tab__9-block">
+						<div class="tab__9-block-title">Изменить пароль</div>
+						<div class="input">
+							<div class="input__wrapper">
+								<div class="input__title">Старый пароль</div>
+								<input class="input__area" type="password" placeholder="Ваш старый пароль">
+							</div>
+							<div class="input__wrapper">
+								<div class="input__title">Новый пароль</div>
+								<input class="input__area" type="password" placeholder="Ваш новый пароль">
+							</div>
+							<div class="input__wrapper">
+								<div class="input__title">Новый пароль</div>
+								<input class="input__area" type="password" placeholder="Повторите новый пароль">
+							</div>
+						</div>
+						<button class="tab__9_button">Сохранить изменения</button>
+					</div>
+
+					<div class="tab__9-block">
+						<div class="tab__9-block-title">Безопасность</div>
+						<div class="tab__9-block-subtitle">Для повышения уровня безопасности мы рекомендуем включить двух-факторную аутенфикацию (2FA)</div>
+						<div class="radio__wrapper">
+							<input type="radio" class="radio__custom" name="2FA" id="radio1" checked>
+							<label for="radio1">Отключено</label>
+
+							<input type="radio" class="radio__custom" name="2FA" id="radio2">
+							<label for="radio2">Google Authenticator</label>
+
+							<input type="radio" class="radio__custom" name="2FA" id="radio3">
+							<label for="radio3">Электронная почта</label>
+						</div>
+					</div>
+					
+					<div class="tab__9-block">
+						<div class="tab__9-block-title">Мой кошелек</div>
+						<div class="input">
+							<div class="input__wrapper">
+								<div class="input__title">Номер кошелька</div>
+								<input class="input__area" type="text" placeholder="Номер вашего USDT кошелька">
+							</div>
+						</div>
+						<button class="tab__9_button">Сохранить изменения</button>
+					</div>
+
+					<div class="tab__9-block">
+						<div class="tab__9-block-title">Персонализация</div>
+						<div class="input">
+							<div class="input__wrapper">
+								<div class="input__title">Загрузить новый аватар</div>
+								<input class="input__area input__area_file" type="file" name="avatar" id="avatar">
+								<label class="input__area input__area_transparent" for="avatar" id="avatarLabel">Выберите файл</label>
+							</div>
+						</div>
+						<button class="tab__9_button">Сохранить изменения</button>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tab__content">
+				<div class="tab__10">
+
+					<div class="menu__open ddn">
+						<div>
+							<img src="img/tabs/10.svg" alt="">
+							<div class="tab__name">Контакты</div>
+						</div>
+						<img src="img/arrows/arrow-down.svg" alt="">
+					</div>
+
+					<div class="tab__10-block">
+						<div class="tab__10-block-title">Контакты для связи</div>
+						<div class="contacts__wrapper">
+							<a href="https://web.telegram.org/" target="_blank">
+								<div class="contacts__img">
+									<img src="img/contacts/tg.svg" alt="">
+								</div>
+								Telegram_login
+							</a>
+
+							<a href="https://www.google.com/intl/ru/gmail/about/" target="_blank">
+								<div class="contacts__img">
+									<img src="img/contacts/mail.svg" alt="">
+								</div>
+								anfalovakristina@gmail.com
+							</a>
+
+							<a href="https://www.vk.com/" target="_blank">
+								<div class="contacts__img">
+									<img src="img/contacts/vk.svg" alt="">
+								</div>
+								Мы вконтакте
+							</a>
+
+							<a href="https://www.youtube.com/" target="_blank">
+								<div class="contacts__img">
+									<img src="img/contacts/youtube.svg" alt="">
+								</div>
+								Мы на YouTube
+							</a>
+
+							<a href="https://www.instagram.com/" target="_blank">
+								<div class="contacts__img">
+									<img src="img/contacts/ig.svg" alt="">
+								</div>
+								Мы в Instagram
+							</a>
+						</div>
+					</div>
+					<div id="chat" class="chat__title">Партнерский чат</div>
+					<div class="chat">
+						<div class="chat__list">
+							<div class="chat-choose chat__profile chat__profile_active">
+								<div class="chat__profile-img">
+									<img src="img/profile.png" alt="">
+								</div>
+								<div class="chat__profile-descr">
+									<div class="chat__profile-name">kris_anfalova</div>
+									<div class="chat__profile-level">manager</div>
+								</div>
+								<div class="chat__profile-preview">Новичкам определённо везёт: получи...</div>
+								<div class="chat__profile-status status_on"></div>
+								<img class="chat__profile-fixed" src="img/fixed.svg" alt="">
+								<div class="chat__profile-number">1</div>
+							</div>
+
+							<div class="chat-choose chat__profile">
+								<div class="chat__profile-img">
+									<img src="img/profile.png" alt="">
+								</div>
+								<div class="chat__profile-descr">
+									<div class="chat__profile-name">kris_anfalova</div>
+									<div class="chat__profile-level">manager</div>
+								</div>
+								<div class="chat__profile-preview">Новичкам определённо везёт: получи...</div>
+								<div class="chat__profile-status status_on"></div>
+								<div class="chat__profile-number">1</div>
+							</div>
+
+							<div class="chat-choose chat__profile">
+								<div class="chat__profile-img">
+									<img src="img/profile.png" alt="">
+								</div>
+								<div class="chat__profile-descr">
+									<div class="chat__profile-name">kris_anfalova</div>
+									<div class="chat__profile-level">manager</div>
+								</div>
+								<div class="chat__profile-preview">Новичкам определённо везёт: получи...</div>
+								<div class="chat__profile-status status_on"></div>
+								<div class="chat__profile-number">1</div>
+							</div>
+
+							<div class="chat-choose chat__profile">
+								<div class="chat__profile-img">
+									<img src="img/profile.png" alt="">
+								</div>
+								<div class="chat__profile-descr">
+									<div class="chat__profile-name">kris_anfalova</div>
+									<div class="chat__profile-level">manager</div>
+								</div>
+								<div class="chat__profile-preview">Новичкам определённо везёт: получи...</div>
+								<div class="chat__profile-status status_on"></div>
+								<div class="chat__profile-number">10</div>
+							</div>
+
+							<div class="chat-choose chat__profile">
+								<div class="chat__profile-img">
+									<img src="img/profile.png" alt="">
+								</div>
+								<div class="chat__profile-descr">
+									<div class="chat__profile-name">kris_anfalova</div>
+									<div class="chat__profile-level">manager</div>
+								</div>
+								<div class="chat__profile-preview">Новичкам определённо везёт: получи...</div>
+								<div class="chat__profile-status status_on"></div>
+								<div class="chat__profile-number">5</div>
+							</div>
+
+							<div class="chat-choose chat__profile">
+								<div class="chat__profile-img">
+									<img src="img/profile.png" alt="">
+								</div>
+								<div class="chat__profile-descr">
+									<div class="chat__profile-name">kris_anfalova</div>
+									<div class="chat__profile-level">manager</div>
+								</div>
+								<div class="chat__profile-preview">Новичкам определённо везёт: получи...</div>
+								<div class="chat__profile-status status_on"></div>
+								<div class="chat__profile-number">10</div>
+							</div>
+
+						</div>
+
+						<div class="chat__overlay">
+							<div class="chat__content chat__content_active">
+								<div class="chat__header">
+									<img class="back" src="img/chat_left.svg" alt="">
+									<div class="chat__header-center">
+										<div class="chat__profile-img">
+											<img src="img/profile.png" alt="">
+										</div>
+										<div class="chat__profile-descr">
+											<div class="chat__profile-name">kris_anfalova</div>
+											<div class="chat__profile-level">manager</div>
+										</div>
+										<div class="chat__profile-status status_on"></div>
+									</div>
+									<img class="back" src="img/chat_right.svg" alt="">
+								</div>
+								<div class="chat__content-inside">
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+	
+									<div class="chat__profile chat__profile_2">
+										<div class="chat__profile-img chat__profile-img_2">
+											<img src="img/profile.png" alt="">
+										</div>
+											<div class="chat__profile-name chat__profile-name_2">kris_anfalova</div>
+											<div class="chat__profile-level chat__profile-level_2">manager</div>
+									</div>
+									
+								</div>
+								<div class="input__wrapper">
+									<input class="input__area input__area_transparent input__area_opacity" type="text" placeholder="Введите сообщение">
+									<img class="input__wrapper-img" src="img/send.svg" alt="">
+								</div>
+							</div>
+
+							<div class="chat__content">
+								<div class="chat__header">
+									<img class="back" src="img/chat_left.svg" alt="">
+									<div class="chat__header-center">
+										<div class="chat__profile-img">
+											<img src="img/profile.png" alt="">
+										</div>
+										<div class="chat__profile-descr">
+											<div class="chat__profile-name">kris_anfalova</div>
+											<div class="chat__profile-level">manager</div>
+										</div>
+										<div class="chat__profile-status status_on"></div>
+									</div>
+									<img class="back" src="img/chat_right.svg" alt="">
+								</div>
+								<div class="chat__content-inside">
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+	
+									<div class="chat__profile chat__profile_2">
+										<div class="chat__profile-img chat__profile-img_2">
+											<img src="img/profile.png" alt="">
+										</div>
+											<div class="chat__profile-name chat__profile-name_2">kris_anfalova</div>
+											<div class="chat__profile-level chat__profile-level_2">manager</div>
+									</div>
+									
+								</div>
+								<div class="input__wrapper">
+									<input class="input__area input__area_transparent input__area_opacity" type="text" placeholder="Введите сообщение">
+									<img class="input__wrapper-img" src="img/send.svg" alt="">
+								</div>
+							</div>
+
+							<div class="chat__content">
+								<div class="chat__header">
+									<img class="back" src="img/chat_left.svg" alt="">
+									<div class="chat__header-center">
+										<div class="chat__profile-img">
+											<img src="img/profile.png" alt="">
+										</div>
+										<div class="chat__profile-descr">
+											<div class="chat__profile-name">kris_anfalova</div>
+											<div class="chat__profile-level">manager</div>
+										</div>
+										<div class="chat__profile-status status_on"></div>
+									</div>
+									<img class="back" src="img/chat_right.svg" alt="">
+								</div>
+								<div class="chat__content-inside">
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+	
+									<div class="chat__profile chat__profile_2">
+										<div class="chat__profile-img chat__profile-img_2">
+											<img src="img/profile.png" alt="">
+										</div>
+											<div class="chat__profile-name chat__profile-name_2">kris_anfalova</div>
+											<div class="chat__profile-level chat__profile-level_2">manager</div>
+									</div>
+									
+								</div>
+								<div class="input__wrapper">
+									<input class="input__area input__area_transparent input__area_opacity" type="text" placeholder="Введите сообщение">
+									<img class="input__wrapper-img" src="img/send.svg" alt="">
+								</div>
+							</div>
+
+							<div class="chat__content">
+								<div class="chat__header">
+									<img class="back" src="img/chat_left.svg" alt="">
+									<div class="chat__header-center">
+										<div class="chat__profile-img">
+											<img src="img/profile.png" alt="">
+										</div>
+										<div class="chat__profile-descr">
+											<div class="chat__profile-name">kris_anfalova</div>
+											<div class="chat__profile-level">manager</div>
+										</div>
+										<div class="chat__profile-status status_on"></div>
+									</div>
+									<img class="back" src="img/chat_right.svg" alt="">
+								</div>
+								<div class="chat__content-inside">
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+	
+									<div class="chat__profile chat__profile_2">
+										<div class="chat__profile-img chat__profile-img_2">
+											<img src="img/profile.png" alt="">
+										</div>
+											<div class="chat__profile-name chat__profile-name_2">kris_anfalova</div>
+											<div class="chat__profile-level chat__profile-level_2">manager</div>
+									</div>
+									
+								</div>
+								<div class="input__wrapper">
+									<input class="input__area input__area_transparent input__area_opacity" type="text" placeholder="Введите сообщение">
+									<img class="input__wrapper-img" src="img/send.svg" alt="">
+								</div>
+							</div>
+
+							<div class="chat__content">
+								<div class="chat__header">
+									<img class="back" src="img/chat_left.svg" alt="">
+									<div class="chat__header-center">
+										<div class="chat__profile-img">
+											<img src="img/profile.png" alt="">
+										</div>
+										<div class="chat__profile-descr">
+											<div class="chat__profile-name">kris_anfalova</div>
+											<div class="chat__profile-level">manager</div>
+										</div>
+										<div class="chat__profile-status status_on"></div>
+									</div>
+									<img class="back" src="img/chat_right.svg" alt="">
+								</div>
+								<div class="chat__content-inside">
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+	
+									<div class="chat__profile chat__profile_2">
+										<div class="chat__profile-img chat__profile-img_2">
+											<img src="img/profile.png" alt="">
+										</div>
+											<div class="chat__profile-name chat__profile-name_2">kris_anfalova</div>
+											<div class="chat__profile-level chat__profile-level_2">manager</div>
+									</div>
+									
+								</div>
+								<div class="input__wrapper">
+									<input class="input__area input__area_transparent input__area_opacity" type="text" placeholder="Введите сообщение">
+									<img class="input__wrapper-img" src="img/send.svg" alt="">
+								</div>
+							</div>
+
+							<div class="chat__content">
+								<div class="chat__header">
+									<img class="back" src="img/chat_left.svg" alt="">
+									<div class="chat__header-center">
+										<div class="chat__profile-img">
+											<img src="img/profile.png" alt="">
+										</div>
+										<div class="chat__profile-descr">
+											<div class="chat__profile-name">kris_anfalova</div>
+											<div class="chat__profile-level">manager</div>
+										</div>
+										<div class="chat__profile-status status_on"></div>
+									</div>
+									<img class="back" src="img/chat_right.svg" alt="">
+								</div>
+								<div class="chat__content-inside">
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_out">Новичкам определённо везёт?<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+									<p class="message message_in">Новичкам определённо везёт: получи бонус в размере 25 USDT при первом депозите на сумму не менее 500 USDT в любой подходящей монете на Bybit!<span class="time">15:24 PM</span></p>
+	
+									<div class="chat__profile chat__profile_2">
+										<div class="chat__profile-img chat__profile-img_2">
+											<img src="img/profile.png" alt="">
+										</div>
+											<div class="chat__profile-name chat__profile-name_2">kris_anfalova</div>
+											<div class="chat__profile-level chat__profile-level_2">manager</div>
+									</div>
+									
+								</div>
+								<div class="input__wrapper">
+									<input class="input__area input__area_transparent input__area_opacity" type="text" placeholder="Введите сообщение">
+									<img class="input__wrapper-img" src="img/send.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+</div>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/rangeslider.min.js"></script>
+	<script src="js/raphael-min.js"></script>
+	<script src="js/morris.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

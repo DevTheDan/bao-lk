@@ -1,0 +1,223 @@
+.tab__3 {
+    &-block1 {
+        background: $blockBG;
+        border-radius: 22px;
+        padding: 25px;
+        &-title {
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 116%;
+        }
+    }
+    &-block2 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+    &-block3 {
+        background: $blockBG;
+        border-radius: 22px;
+        padding: 25px;
+        margin-top: 30px;
+    }
+}
+
+
+.calc {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 28px;
+    &__input {
+        margin-left: 80px;
+        width: 45%;
+        &-title {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 114%;
+        }
+    }
+
+}
+
+.tariff {
+    p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 114%;
+        margin-bottom: 14px;
+    }
+    &__choose {
+        white-space: nowrap;
+        text-align: center;
+        margin-bottom: 9px;
+        padding: 5px 13px;
+        border-radius: 31px;
+        font-size: 16px;
+        line-height: 19px;
+        cursor: pointer;
+        background: #1F2733;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &_active {
+            background: #8253E9;
+        }
+    }
+    &__card {
+        border: 1px solid #7835BA;
+        border-radius: 22px;
+        width: 33%;
+        &:nth-child(2) {
+            border: 1px solid #129C86;
+        }
+        &:nth-child(3) {
+            border: 1px solid #7E61CB;
+        }
+        &-head {
+            border-radius: 22px 22px 0px 0px;
+            padding: 18px;
+            position: relative;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            span {
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 23px;
+                margin-left: 16px;
+            }
+        }
+        &-subtitle {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            div {
+                font-weight: normal;
+                font-size: 64px;
+                line-height: 116%;
+            }
+            span {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                margin: 10px 0 0 13px;
+            }
+        }
+        &-body {
+            padding: 25px;
+            background: $blockBG;
+            border-radius:  0px 0px 22px 22px;
+        }
+    }
+    &__status {
+        top: 12px;
+        right: 12px;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        border: 2px solid #FFFFFF;
+        border-radius: 50%;
+    }
+    &__arrow {
+        display: none;
+        bottom: 20px;
+        right: 15px;
+        width: 11px;
+        height: 11px;
+        position: absolute;
+    }
+    &-input {
+        width: 100%;
+        &-title {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 114%;
+        }
+    }
+    &__result {
+        margin-top: 25px;
+        div {
+            display: flex;
+            justify-content: space-between;
+            &:first-child {
+                margin-bottom: 12px;
+            }
+            span {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+
+            }
+        }
+    }
+    &__button {
+        border: none;
+        outline: none;
+        margin-top: 25px;
+        background: $gradient1;
+        border-radius: 11px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        padding: 21px 0;
+        width: 100%;
+    }
+
+}
+
+.s {
+    background: $s;
+}
+
+.m {
+    background: $m;
+}
+.l {
+    background: $l;
+}
+
+.capitalization {
+    display: flex;
+    margin-top: 20px;
+    p {
+        margin-left: 12px;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    &_double {
+        display: flex;
+        justify-content: space-between;
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+
+}
+
+.result {
+    width: 350px;
+    padding-left: 25px;
+    border-left: 1px solid #1F2733;
+    white-space: nowrap;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        column-gap: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__count {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 116%;
+    }
+
+}

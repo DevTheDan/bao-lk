@@ -1,0 +1,132 @@
+.tab__2 {
+    &-block {
+        background: $blockBG;
+        border-radius: 22px;
+        padding: 25px;
+        margin-top: 30px;
+        &:last-child {
+            margin-top: 30px;
+        }
+    }
+}
+
+.how {
+    margin-top: 36px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 116%;
+    opacity: 0.8;
+    &__steps {
+        &-row {
+            margin-top: 13px;
+            display: flex;
+            align-items: baseline;
+            &:first-child {
+                margin-top: 20px;
+            }
+        }
+    }
+
+
+}
+
+.list {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: linear-gradient(97.31deg, rgba(130, 83, 233, 0.3) 3.73%, rgba(90, 95, 236, 0.3) 100%);
+    opacity: 0.8;
+    border-radius: 7px;
+    padding: 4px 5px 7px 8px;
+    margin-right: 19px;
+    color: #9275FF;
+}
+.video {
+    margin-top: 33px;
+    aspect-ratio: 16 / 9;
+    position: relative;
+    border-radius: 28px;
+    iframe {
+        border-radius: 28px;
+        object-fit: cover;
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%
+    }
+}
+
+.deposit {
+    font-weight: normal;
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 11px 26px;
+    &:last-child {
+        margin-right: 0;
+    }
+    &_active {
+        background: $gradient1;
+        border-radius: 56px;
+        padding: 11px 26px;
+    }
+    &__method {
+        background: #1F2733;
+        border-radius: 30px;
+        padding: 19px 9px;
+    }
+    &__currency {
+        display: none;
+        &_active {
+            display: block;
+        }
+    }
+    &__sum {
+        margin-top: 50px;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    &__input {
+        outline: none;
+        margin-top: 11px;
+        height: 60px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.085);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 11px;
+        padding: 22px;
+        color: #FFFFFF;
+        &::placeholder {
+            font-weight: normal;
+            font-size: 14px;
+        }
+    }
+    &__button {
+        margin-top: 30px;
+        background: $gradient1;
+        border-radius: 11px;
+        font-weight: normal;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 21px 50px;
+        border: none;
+    }
+
+}
+
+
+.currency {
+    font-weight: normal;
+    font-size: 20px;
+    margin-right: 26px;
+    cursor: pointer;
+    padding: 11px 26px;
+    &:last-child {
+        margin-right: 0;
+    }
+    &_active {
+        background: $gradient1;
+        border-radius: 56px;
+    }
+}

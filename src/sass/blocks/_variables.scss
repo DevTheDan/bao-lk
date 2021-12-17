@@ -1,0 +1,78 @@
+$color1: #1F2733;
+$color2: #6B7078;
+
+$blockBG: rgba(13, 15, 26, .45);
+
+$bg: #131925;
+$white: #FFFFFF;
+
+$gradient1: linear-gradient(97.31deg, #8253E9 3.73%, #5A5FEC 100%);
+
+$s: radial-gradient(64.02% 107.22% at 1.85% 3.94%, #FF81FF 0%, rgba(255, 129, 255, 0) 100%), radial-gradient(92.35% 171.98% at 98.42% 100%, #AE3EFF 0%, rgba(130, 83, 233, 0) 100%), radial-gradient(48.34% 80.96% at 64.99% 0%, #FFE1FE 0%, rgba(255, 229, 254, 0) 100%), #0D0F1A;
+
+$m: radial-gradient(64.02% 107.22% at 1.85% 3.94%, #06B89D 0%, rgba(17, 189, 158, 0) 100%), radial-gradient(79.3% 149.47% at 98.42% 100%, #CFFFEC 0%, rgba(229, 255, 241, 0) 100%), radial-gradient(73.78% 120% at 74.85% -12.42%, #1BC29F 0%, rgba(22, 191, 159, 0) 100%), #0D0F1A;
+
+$l: radial-gradient(64.02% 107.22% at 1.85% 3.94%, #8253E9 0%, rgba(130, 83, 233, 0.609375) 39.06%, rgba(130, 83, 233, 0) 100%), radial-gradient(79.3% 149.47% at 98.42% 100%, #7A7FFF 0%, rgba(122, 127, 255, 0.348958) 65.1%, rgba(122, 127, 255, 0) 100%), radial-gradient(76.78% 126.36% at 67.9% -13.03%, #D8D7FF 0%, rgba(209, 202, 255, 0) 100%), #0D0F1A;
+
+.require {
+    background: #FF234B;
+    border-radius: 6px;
+    font-size: 12px !important;
+    padding: 3px 7px;
+    cursor: pointer;
+}
+
+
+.subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    // line-height: 114%;
+    &_comment {
+        color: #6B7078;
+    }
+    &_paid {
+        padding: 3px 7px;
+        font-size: 12px;
+        border-radius: 6px;
+        background: #27D323;
+    }
+    &_process {
+        padding: 3px 7px;
+        font-size: 12px;
+        border-radius: 6px;
+        background: #FF6B00;
+    }
+    &_rejected {
+        padding: 3px 7px;
+        font-size: 12px;
+        border-radius: 6px;
+        background: #FF234B;
+    }
+}
+
+
+.status {
+    &_on{
+        background: #27D323;
+    }
+    &_off {
+        background: #FF234B;
+    }
+    &_none {
+        background: #A3A3A3;
+    }
+}
+
+.red {
+    color: #FF234B;
+}
+
+.green {
+    color: #27D323;
+}
+
+.from_operations {
+    img {
+      margin-left: 7px;
+    }
+}

@@ -1,0 +1,99 @@
+.tab__6 {
+    &-block {
+        background: $blockBG;
+        border-radius: 22px;
+        padding: 25px;
+        &-head {
+            background: #1f2733;
+            border-radius: 30px;
+            padding: 19px 9px;
+        }
+        // &-body {
+        //     margin-top: 50px;
+        // }
+    }
+    &-hide {
+        display: none;
+        font-size: 20px;
+        line-height: 21px;
+        margin-bottom: 15px;
+    }
+
+}
+
+.db785 {
+    display: none;
+}
+
+.withdraw {
+    font-weight: normal;
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 11px 24px;
+    &:last-child {
+        margin-right: 0;
+    }
+    &_active {
+        background: $gradient1;
+        border-radius: 56px;
+    }
+    &__title {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &__input {
+        margin-top: 50px;
+        input {
+            outline: none;
+            margin-top: 11px;
+            height: 60px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.085);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 11px;
+            padding: 22px;
+            color: #FFFFFF;
+            &::placeholder {
+                font-weight: normal;
+                font-size: 14px;
+            }
+        }
+        &:first-child {
+            width: 26.5%;
+            margin-right: 30px;
+        }
+        &:last-child {
+            width: 71.5%;
+        }
+        &-wrapper {
+            display: flex;
+        }
+    }
+    &__button {
+        width: 270px;
+        margin-top: 22px;
+        background: $gradient1;
+        border-radius: 11px;
+        font-weight: normal;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 21px 50px;
+        border: none;
+    }
+    &__result {
+        margin-top: 28px;
+        &-title {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        &-sum {
+            margin-top: 7px;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+}

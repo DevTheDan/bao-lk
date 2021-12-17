@@ -1,0 +1,343 @@
+.tab__content {
+    margin-top: 30px;
+    display: none;
+    &_active {
+        display: block;
+    }
+}
+
+.tab__1 {
+    .table {
+        position: relative;
+    }
+    &-block1 {
+        border-radius: 22px;
+        padding: 7px 25px 20px;
+        background: $blockBG;
+        // scroll for mobile
+        &-inside {
+            overflow-x: auto;
+
+        }
+    }
+    &-block23 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-block2 {
+        width: 66%;
+        height: 285px;
+        background: $blockBG;
+        border-radius: 22px;
+        padding: 25px;
+        &-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            row-gap: 15px;
+            &-descr {
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 116%;
+            }
+        }
+    }
+    &-block3 {
+        width: 31.5%;
+        background: $blockBG;
+        border-radius: 22px;
+        padding: 25px;
+        &-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            &-descr {
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 116%;
+            }
+            &-subdescr {
+                display: inline-block;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 100%;
+                background: #1F2733;
+                border-radius: 22px;
+                padding: 6px 9px;
+                cursor: pointer;
+                img {
+                    margin-left: 7px;
+                }
+            }
+        }
+        &-body {
+            margin-top: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-partner {
+            display: flex;
+            align-items: center;
+            &-img {
+                position: relative;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            &-status {
+                position: absolute;
+                width: 9px;
+                height: 9px;
+                top: 1px;
+                right: -2px;
+                border: 1px solid #FFFFFF;
+                border-radius: 50%;
+            }
+            &-name {
+                margin-left: 15px;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 113%;
+                color: #FFFFFF;
+            }
+            &-line {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 114%;
+                color: #B7AEBD;
+            }
+        }
+    }
+    &-block4 {
+        margin-top: 30px;
+        background: $blockBG;
+        border-radius: 22px;
+        padding: 25px 25px 7px 25px;
+        &-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            &-descr {
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 116%;
+            }
+            &-subdescr {
+                display: inline-block;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 100%;
+                background: #1F2733;
+                border-radius: 22px;
+                padding: 6px 9px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// переключатель
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 47px;
+    height: 22px;
+    &_mini {
+        width: 34px;
+        height: 18px;
+    }
+}
+
+.switch input {
+    display:none;
+}
+
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #1F2733;
+-moz-transition: all .4s;
+-ms-transition: all .4s;
+-webkit-transition: all .4s;
+-o-transition: all .4s;
+transition: all .4s;
+}
+
+.slider {
+    &:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 18px;
+        left: 3px;
+        bottom: 2px;
+        background-color: $white;
+        -moz-transition: all .4s;
+        -ms-transition: all .4s;
+        -webkit-transition: all .4s;
+        -o-transition: all .4s;
+        transition: all .4s;
+    }
+    &_mini {
+        &:before {
+            height: 14px;
+            width: 15px;
+            left: 3px;
+            bottom: 2px;
+        }
+    }
+
+}
+
+input:checked + .slider {
+background: $gradient1;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px $gradient1;
+}
+
+input:checked + .slider {
+    &:before {
+        -webkit-transform: translateX(23px);
+        -ms-transform: translateX(23px);
+        transform: translateX(23px);
+    }
+    &_mini {
+        &:before {
+            -webkit-transform: translateX(13px);
+            -ms-transform: translateX(13px);
+            transform: translateX(13px);
+        }
+    }
+}
+
+
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+/* chart */
+
+#myfirstchart circle {
+    display: none;
+}
+
+.myfirstchart__wrapper {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.chart {
+    position: relative;
+    height: 182px;
+    border: 1px solid rgba(241, 236, 245, 0.2);
+    border-top: 0.5px dashed rgba(241, 236, 245, 0.2);
+    border-right: none;
+}
+
+
+.y-axis {
+    position: absolute;
+    transform: rotate(90deg);
+    color: rgba(183, 174, 189, 0.3);
+    top: 30px;
+    left: -15px;
+    z-index: 2;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.x-axis {
+    position: absolute;
+    color:rgba(183, 174, 189, 0.5);
+    right: 10px;
+    bottom: 4px;
+    z-index: 2;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.from {
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 50px;
+    margin-top: 10px;
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.color {
+    width: 24px;
+    height: 3px;
+    background-color: #666BFF;
+    &_2 {
+        background-color:#D60FFF;
+    }
+}
+
+.dotted {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    border-top: 0.5px dashed rgba(241, 236, 245, 0.2);
+    border-bottom: 0.5px dashed rgba(241, 236, 245, 0.2);
+    height: 62px;
+    width: 100%;
+}
+
+// choose chart time
+
+.charttime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 11px 26px;
+    background: #1F2733;
+    border-radius: 22px;
+    padding: 4px 6px;
+    column-gap: 10px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+
+.charttimechoose {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    cursor: pointer;
+    padding: 2px 6px 3px 6px;
+    &_active {
+        background: $gradient1;
+        border-radius: 9px;
+    }
+}
